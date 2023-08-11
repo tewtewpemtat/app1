@@ -1,14 +1,14 @@
 import React from 'react'
-
+import { Header,Content,Footer } from './func-components';
+import Calendar from './class-components';
 function App() {
-  const divStyle={
-    color:'red',
-    backgroundColor:'powderblue',
-    fontSize:'larger',
-    padding:'3px',
-  }
   return (
-    <div style={divStyle}>Hello React</div>
+    <>
+    <Header/>
+    <p><center><Calendar/></center></p>
+    <Content/>
+    <Footer/>
+    </>
   );
 }
 
